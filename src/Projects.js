@@ -23,7 +23,7 @@ const allProjects = [
 const Projects = () => {
   const [selectedCategory, setSelectedCategory] = useState("All");
 
-  const categories = ["All", "Full Stack", "E-commerce", "Data Analytics", "HTML/CSS", "JavaScript", "React.js","Node.js","Full Stack","PhpMyAdmin","MySQL","XAMPP","Chart.js","Google Apps Script"];
+  const categories = ["All", "Full Stack", "E-commerce", "Data Analytics", "HTML/CSS", "JavaScript", "React.js","Node.js","PhpMyAdmin","MySQL","XAMPP","Chart.js","Google Apps Script"];
 
   const filteredProjects =
   selectedCategory === "All"
@@ -76,4 +76,5 @@ const Projects = () => {
 };
 
 export default Projects;
+
 
