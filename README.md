@@ -1,5 +1,5 @@
 # Amruta's Portfolio - Personal Branding Website
-[Live Portfolio Website](https://amruta-s-portfolio3.vercel.app/) | [Portfolio GitHub](https://github.com/KadamAmruta03/AMRUTA-S-PORTFOLIO3)
+[Live Portfolio Website](https://amruta-s-portfolio-3.vercel.app/) | [Portfolio GitHub](https://github.com/KadamAmruta03/AMRUTA-S-PORTFOLIO3)
 
 AMRUTA'S PORTFOLIO is a modern, responsive personal branding website designed to showcase my journey as a developer. This project serves as a digital resume, highlighting my technical skills, academic achievements, and web development projects. It demonstrates my expertise in **Frontend Development**, **Responsive Web Design**, and **Clean UI/UX principles**.
 
