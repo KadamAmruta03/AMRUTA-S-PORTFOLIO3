@@ -14,10 +14,10 @@ function Home() {
 
             <div className="achievement-box">
               <h3>Achievements</h3>
-              <p>• Participated in college hackathon <strong>“TechNova 2024”</strong> – secured{" "}
-                  <strong>Top 10 position</strong>.</p>
+              
                 
-                <p>• Completed 8-week training on Emotional Intelligence Program (2025).</p>
+                <p>• Completed 8-week training on Professional Emotional Intelligence Program (2025).</p>
+    <p>• Completed 30 hours of value-added training covering fundamentals of data analysis, basic analytics concepts, and practical applications in real-world scenarios.</p>
             </div>
           </div>
 
@@ -27,9 +27,7 @@ function Home() {
               Hi, I’M <span>Amruta Kadam</span>.
             </h2>
             <p>
-              Full-stack software developer with expertise in front-end and back-end
-              development. BCA student with experience in data analytics, AI-powered web
-              solutions, and building scalable, user-focused applications.
+              High-achieving BCA student and Frontend Developer specializing in React.js, JavaScript (ES6+), and CSS3. Focused on building responsive, pixel-perfect user interfaces and translating complex designs into seamless web experiences.
             </p>
 
             <h3>Education</h3>
@@ -72,11 +70,10 @@ function Home() {
                 <h4>Frontend</h4>
                 <ul>
                   <li>React.js</li>
-                  <li>HTML</li>
-                  <li>CSS</li>
-                  <li>JavaScript</li>
-                  <li>Next.js</li>
-                  <li>Redux</li>
+                  <li>HTML5</li>
+                  <li>CSS3</li>
+                  <li>JavaScript (ES6+)</li>
+                 
                 </ul>
               </div>
 
@@ -125,3 +122,4 @@ function Home() {
 }
 
 export default Home;
+
