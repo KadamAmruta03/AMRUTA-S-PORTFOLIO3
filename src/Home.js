@@ -64,44 +64,44 @@ function Home() {
         <div className="middle-section">
           <div className="skills-container">
             <h3>Skills</h3>
+            
+            
+<div className="skills-grid">
+  <div className="skill-box">
+    <h4>Frontend</h4>
+    <ul>
+      <li>React.js</li>
+      <li>HTML5</li>
+      <li>CSS3</li>
+      <li>JavaScript (ES6+)</li>
+    </ul>
+  </div>
+  
+  <div className="skill-box">
+    <h4>Programming Language</h4>
+    <ul>
+      <li>Python</li>
+      <li>Java</li>
+    </ul>
+  </div>
 
-            <div className="skills-grid">
-              <div className="skill-box">
-                <h4>Frontend</h4>
-                <ul>
-                  <li>React.js</li>
-                  <li>HTML5</li>
-                  <li>CSS3</li>
-                  <li>JavaScript (ES6+)</li>
-                </ul>
-              </div>
+  <div className="skill-box">
+    <h4>Database</h4>
+    <ul>
+      <li>MySQL</li>
+    </ul>
+  </div>
+
+  <div className="skill-box">
+    <h4>Tools & Platforms</h4>
+    <ul>
+      <li>GitHub</li>
+      <li>Vercel</li>
+    </ul>
+  </div>
+</div>
               
-          <div className="skills-grid">
-              <div className="skill-box">
-                <h4>Programming Language</h4>
-                <ul>
-                  <li>Python</li>
-                  <li>Java</li>
-                </ul>
-              </div>
-
-              
-
-              <div className="skill-box">
-                <h4>Database</h4>
-                <ul>
-                  
-                  <li>MySQL</li>
-                </ul>
-              </div>
-
-              <div className="skill-box">
-                <h4>Tools & Platforms</h4>
-                <ul>
-                  <li>GitHub</li>
-                  <li>Vercel</li>
-                </ul>
-              </div>
+         
 
               
             </div>
@@ -113,6 +113,7 @@ function Home() {
 }
 
 export default Home;
+
 
 
 
