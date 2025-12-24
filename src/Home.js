@@ -73,7 +73,14 @@ function Home() {
                   <li>HTML5</li>
                   <li>CSS3</li>
                   <li>JavaScript (ES6+)</li>
-                 
+                </ul>
+              </div>
+ <div className="skills-grid">
+              <div className="skill-box">
+                <h4>Programming Language</h4>
+                <ul>
+                  <li>Python</li>
+                  <li>Java</li>
                 </ul>
               </div>
 
@@ -105,5 +112,6 @@ function Home() {
 }
 
 export default Home;
+
 
 
