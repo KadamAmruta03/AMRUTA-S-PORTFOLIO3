@@ -77,23 +77,12 @@ function Home() {
                 </ul>
               </div>
 
-              <div className="skill-box">
-                <h4>Backend</h4>
-                <ul>
-                  <li>Node.js</li>
-                  <li>Express</li>
-                  <li>Flask</li>
-                  <li>Django REST</li>
-                  <li>Python</li>
-                  <li>TypeScript</li>
-                </ul>
-              </div>
+              
 
               <div className="skill-box">
                 <h4>Database</h4>
                 <ul>
-                  <li>MongoDB</li>
-                  <li>PostgreSQL</li>
+                  
                   <li>MySQL</li>
                 </ul>
               </div>
@@ -102,17 +91,11 @@ function Home() {
                 <h4>Tools & Platforms</h4>
                 <ul>
                   <li>GitHub</li>
-                  <li>Firebase</li>
+                  <li>Vercel</li>
                 </ul>
               </div>
 
-              <div className="skill-box">
-                <h4>Analytics & Visualization</h4>
-                <ul>
-                  <li>Power BI</li>
-                  <li>Data-driven dashboards</li>
-                </ul>
-              </div>
+              
             </div>
           </div>
         </div>
@@ -122,4 +105,5 @@ function Home() {
 }
 
 export default Home;
+
 
