@@ -1,0 +1,19 @@
+/* ===== GLOBAL RESET ===== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Garamond", "Times New Roman", serif;
+}
+
+/* Background for main content */
+.background-section {
+  width: 100%;
+  min-height: 100vh;
+  background-image: url("./Images/Image2.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  padding: 40px 0;
+}

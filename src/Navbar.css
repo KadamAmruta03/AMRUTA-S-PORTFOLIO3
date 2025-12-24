@@ -1,0 +1,35 @@
+/* === NAVBAR STYLES === */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #060e1a;
+  padding: 15px 40px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+
+.logo {
+  color: palegoldenrod;
+  font-weight: 800;
+  font-size: 22px;
+}
+
+.nav-links {
+  display: flex;
+  gap: 40px;
+}
+
+.nav-item {
+  text-decoration: none;
+  color: palegoldenrod;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.nav-item:hover {
+  color: #ffb6c1;
+}
