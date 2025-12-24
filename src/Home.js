@@ -17,7 +17,7 @@ function Home() {
               
                 
                 <p>• Completed 8-week training on Professional Emotional Intelligence Program (2025).</p>
-    <p>• Completed 30 hours of value-added training covering fundamentals of data analysis, basic analytics concepts, and practical applications in real-world scenarios.</p>
+    <p>• Completed 30 hours of value-added training covering fundamentals of data analysis, basic analytics concepts.</p>
             </div>
           </div>
 
@@ -113,6 +113,7 @@ function Home() {
 }
 
 export default Home;
+
 
 
 
