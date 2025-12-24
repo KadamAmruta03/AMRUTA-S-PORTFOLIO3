@@ -1,6 +1,6 @@
 import React from "react";
 import "./Home.css";
-import amruImg from "./Images/amru.jpg"; // ✅ Added image import
+import amruImg from "./Images/amru.jpg"; // ✅ Ensure folder name is exactly "Images"
 
 function Home() {
   return (
@@ -14,10 +14,8 @@ function Home() {
 
             <div className="achievement-box">
               <h3>Achievements</h3>
-              
-                
-                <p>• Completed 8-week training on Professional Emotional Intelligence Program (2025).</p>
-    <p>• Completed 30 hours of value-added training covering fundamentals of data analysis, basic analytics concepts.</p>
+              <p>• Completed 8-week training on Professional Emotional Intelligence Program (2025).</p>
+              <p>• Completed 30 hours of value-added training covering fundamentals of data analysis, basic analytics concepts.</p>
             </div>
           </div>
 
@@ -31,32 +29,25 @@ function Home() {
             </p>
 
             <h3>Education</h3>
-            <p>
-            <ul>
-              <li>
-                <h4>
-                <strong>Bachelor of Computer Applications (2024 - Present)</strong></h4>
-                <br />
-                Pillai College of Arts, Commerce & Science, New Panvel
-                <br />
-                Semester 1 SGPA: <strong>9.68 | </strong>Semester 2 SGPA: <strong>9.9 | </strong>Semester 3 SGPA: <strong>10</strong>
-              </li>
-              <li><h4>
-                <strong>Higher Secondary in Commerce (2023 - 2024)</strong></h4>
-                <br />
-                D.G. Ruparel College, Matunga Road, Mumbai
-                <br />
-                HSC Board <strong>(88%)</strong>
-              </li>
-              <li><h4>
-                <strong>Secondary Education (2021 - 2022)</strong></h4>
-                <br />
-                Abhyudaya Education Society High School, Mumbai
-                <br />
-                SSC Board <strong>(90%)</strong>
-              </li>
-            </ul>
-            </p>
+            <div className="education-list">
+              <ul>
+                <li>
+                  <h4><strong>Bachelor of Computer Applications (2024 - Present)</strong></h4>
+                  <p>Pillai College of Arts, Commerce & Science, New Panvel</p>
+                  <p>Semester 1 SGPA: <strong>9.68 | </strong>Semester 2 SGPA: <strong>9.9 | </strong>Semester 3 SGPA: <strong>10</strong></p>
+                </li>
+                <li>
+                  <h4><strong>Higher Secondary in Commerce (2023 - 2024)</strong></h4>
+                  <p>D.G. Ruparel College, Matunga Road, Mumbai</p>
+                  <p>HSC Board <strong>(88%)</strong></p>
+                </li>
+                <li>
+                  <h4><strong>Secondary Education (2021 - 2022)</strong></h4>
+                  <p>Abhyudaya Education Society High School, Mumbai</p>
+                  <p>SSC Board <strong>(90%)</strong></p>
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
 
@@ -64,46 +55,39 @@ function Home() {
         <div className="middle-section">
           <div className="skills-container">
             <h3>Skills</h3>
-            
-            
-<div className="skills-grid">
-  <div className="skill-box">
-    <h4>Frontend</h4>
-    <ul>
-      <li>React.js</li>
-      <li>HTML5</li>
-      <li>CSS3</li>
-      <li>JavaScript (ES6+)</li>
-    </ul>
-  </div>
-  
-  <div className="skill-box">
-    <h4>Programming Language</h4>
-    <ul>
-      <li>Python</li>
-      <li>Java</li>
-    </ul>
-  </div>
+            <div className="skills-grid">
+              <div className="skill-box">
+                <h4>Frontend</h4>
+                <ul>
+                  <li>React.js</li>
+                  <li>HTML5</li>
+                  <li>CSS3</li>
+                  <li>JavaScript (ES6+)</li>
+                </ul>
+              </div>
 
-  <div className="skill-box">
-    <h4>Database</h4>
-    <ul>
-      <li>MySQL</li>
-    </ul>
-  </div>
+              <div className="skill-box">
+                <h4>Programming Language</h4>
+                <ul>
+                  <li>Python</li>
+                  <li>Java</li>
+                </ul>
+              </div>
 
-  <div className="skill-box">
-    <h4>Tools & Platforms</h4>
-    <ul>
-      <li>GitHub</li>
-      <li>Vercel</li>
-    </ul>
-  </div>
-</div>
-              
-         
+              <div className="skill-box">
+                <h4>Database</h4>
+                <ul>
+                  <li>MySQL</li>
+                </ul>
+              </div>
 
-              
+              <div className="skill-box">
+                <h4>Tools & Platforms</h4>
+                <ul>
+                  <li>GitHub</li>
+                  <li>Vercel</li>
+                </ul>
+              </div>
             </div>
           </div>
         </div>
@@ -113,9 +97,3 @@ function Home() {
 }
 
 export default Home;
-
-
-
-
-
-
