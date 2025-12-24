@@ -6,40 +6,24 @@ const allProjects = [
   {
     title: "Blood Donation App",
     desc: "App for managing donors, tracking donations, and location-based alerts.",
-    tech: ["HTML/CSS", "JavaScript", "React.js","Node.js","Full Stack","PhpMyAdmin","MySQL","XAMPP","Chart.js"],
-    category: ["HTML/CSS", "JavaScript", "React.js","Node.js","Full Stack","PhpMyAdmin","MySQL","XAMPP","Chart.js"],
+    tech: ["HTML/CSS", "JavaScript", "Full Stack","Google Apps Script "],
+    category: ["HTML/CSS", "JavaScript","Full Stack","Google Apps Script"],
+     link: 'https://blooddonation-kappa.vercel.app/index.html' 
   },
-  {
-    title: "Travel Agency App",
-    desc: "Platform for booking trips with analytics and dynamic pricing.",
-    tech: ["HTML/CSS", "JavaScript", "React.js","Node.js","Full Stack","PhpMyAdmin","MySQL","XAMPP"],
-    category: ["HTML/CSS", "JavaScript", "React.js","Node.js","Full Stack","PhpMyAdmin","MySQL","XAMPP"],
-  },
+  
   {
     title: "Evra Jewelry E-commerce Website",
     desc: "Responsive jewelry e-commerce platform with product gallery and cart integration.",
-    tech: ["HTML/CSS", "JavaScript", "React.js","Node.js","Full Stack","PhpMyAdmin","MySQL","XAMPP"],
-    category: ["HTML/CSS", "JavaScript", "React.js","Node.js","Full Stack","PhpMyAdmin","MySQL","XAMPP","E-commerce"],
+    tech: ["HTML/CSS", "JavaScript", "React.js","Full Stack"],
+    category: ["HTML/CSS", "JavaScript", "React.js","Full Stack","E-commerce"],
     link: 'https://evra-jewlry.vercel.app/' 
-  },
-  {
-    title: "Study Habit Analyzer",
-    desc: "Tracks study sessions, visualizes performance, and predicts patterns.",
-    tech: ["HTML/CSS", "React.js", "Django REST", "PostgreSQL", "Chart.js","Node.js", "Data Analytics"],
-    category: ["HTML/CSS", "React.js", "Django REST", "PostgreSQL", "Chart.js","Node.js", "Data Analytics"],
-  },
-  {
-    title: "Smart Resume Builder",
-    desc: "AI-driven resume builder with ATS scoring and NLP keyword analysis.",
-    tech: ["React.js", "Flask", "MongoDB", "HTML/CSS", "React.js", "Django REST", "PostgreSQL", "Chart.js","Node.js","OpenAI API"],
-    category:  ["React.js", "Flask", "MongoDB", "HTML/CSS", "React.js", "Django REST", "PostgreSQL", "Chart.js","Node.js","OpenAI API"],
   },
 ];
 
 const Projects = () => {
   const [selectedCategory, setSelectedCategory] = useState("All");
 
-  const categories = ["All", "Full Stack", "E-commerce", "Data Analytics", "HTML/CSS", "JavaScript", "React.js","Node.js","Full Stack","PhpMyAdmin","MySQL","XAMPP","Chart.js"];
+  const categories = ["All", "Full Stack", "E-commerce", "Data Analytics", "HTML/CSS", "JavaScript", "React.js","Node.js","Full Stack","PhpMyAdmin","MySQL","XAMPP","Chart.js","Google Apps Script"];
 
   const filteredProjects =
   selectedCategory === "All"
@@ -92,3 +76,4 @@ const Projects = () => {
 };
 
 export default Projects;
+
